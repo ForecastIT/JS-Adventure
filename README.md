@@ -10,7 +10,9 @@ Credits
 Image Files
 
 Title: Where is the love sung by The Black Eye Peas recreated in a tunnel underpass.
+
 Artist: Emily Morter
+
 URL: unsplash.com/photos/8xAA0f9yQnE
 
 Title: Be free and buy a vw bus!
