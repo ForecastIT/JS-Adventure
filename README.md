@@ -2,15 +2,15 @@
 
 JS Adventure is a short browser based adventure game written in Javascript that tracks the players local time and weather and includes them in the story.
 
-##Author
+## Author
 
 Lachlan Williams
 
 wil06190845@student.holmesglen.edu.au
 
-##Credits##
+## Credits
 
-###Image Files
+### Image Files
 
 Title: Where is the love sung by The Black Eye Peas recreated in a tunnel underpass.
 
@@ -66,7 +66,7 @@ Artist: Thomas Shellberg
 
 URL: https://unsplash.com/photos/_FjegPI89aU
 
-Third Party CSS and Javascript
+## Third Party CSS and Javascript
 
 Mobile Navigation Bar
 
@@ -76,7 +76,7 @@ Bootstrap Front-end framework
 
 https://getbootstrap.com
 
-Privacy Policy
+## Privacy Policy
 
 A copy of the Australian Privacy Principles may be obtained from the website of The Office of the Australian Information Commissioner at www.aoic.gov.au
 What is Personal Information, and do we collect it?
