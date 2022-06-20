@@ -96,4 +96,4 @@ The default version of JS Adventure does not record any sensitive information. I
 
 ### Third Parties and Policy Updates
 
-If you are playing a fork of JS Adventure, the authors of the forked must update this policy to reflect any change made and comply with the Australian Privacy Act.
+If you are playing a fork of JS Adventure, the authors of the forked version must update this policy to reflect any change made and comply with the Australian Privacy Act.
