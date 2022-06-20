@@ -66,7 +66,7 @@ Artist: Thomas Shellberg
 
 URL: https://unsplash.com/photos/_FjegPI89aU
 
-## Third Party CSS and Javascript
+### Third Party CSS and Javascript
 
 Mobile Navigation Bar
 
@@ -84,7 +84,8 @@ What is Personal Information, and do we collect it?
 Personal information is information or an opinion that identifies an individual. Examples of Personal Information we collect include names, addresses, email addresses, phone and facsimile numbers.
 
 JS Adventure does not save any personal information.
-Sensitive Information
+
+### Sensitive Information
 
 Sensitive information is defined in the Privacy Act to include information or opinion about an individual's racial or ethnic origin, political opinions, membership of a political association, religious or philosophical beliefs, membership of a trade union or other professional body, criminal record or health information.
 
