@@ -1,3 +1,6 @@
+//The is the game engine
+//Please Note: You will need an API key from OpenWeather, https://openweathermap.org/api, for JS Adventure to work correctly.
+
 //--- Gloabal Varibles ---
 //These variables connect our code with the 'id' on the html page.
 var images = document.getElementById("images");
