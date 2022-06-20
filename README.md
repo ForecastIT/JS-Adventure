@@ -12,67 +12,67 @@ wil06190845@student.holmesglen.edu.au
 
 ### Image Files
 
-Title: Where is the love sung by The Black Eye Peas recreated in a tunnel underpass.
+**Title:** Where is the love sung by The Black Eye Peas recreated in a tunnel underpass.
 
-Artist: Emily Morter
+**Artist:** Emily Morter
 
-URL: https://unsplash.com/photos/8xAA0f9yQnE
+**URL:** https://unsplash.com/photos/8xAA0f9yQnE
 
-Title: Be free and buy a vw bus!
+**Title:** Be free and buy a vw bus!
 
-Artist: Kevin Schmid
+**Artist:** Kevin Schmid
 
-URL: https://unsplash.com/photos/Mta8r0bxhboE
+**URL:** https://unsplash.com/photos/Mta8r0bxhboE
 
-Title: Sea of Clouds
+**Title:** Sea of Clouds
 
-Artist: Łukasz Łada
+**Artist:** Łukasz Łada
 
-URL: https://unsplash.com/photos/LtWFFVi1RXQ
+**URL:** https://unsplash.com/photos/LtWFFVi1RXQ
 
-Title: Grayscale Photo of a Wooden House
+**Title:** Grayscale Photo of a Wooden House
 
-Artist: Robbie Down
+**Artist:** Robbie Down
 
-URL: https://unsplash.com/photos/3IRIerl16nk
+**URL:** https://unsplash.com/photos/3IRIerl16nk
 
-Title: Yellow and Green Led Light
+**Title:** Yellow and Green Led Light
 
-Artist: Cottonbro
+**Artist:** Cottonbro
 
-URL: https://www.pexels.com/photo/yellow-and-green-led-light-4835419
+**URL:** https://www.pexels.com/photo/yellow-and-green-led-light-4835419
 
-Title: Graffiti on the Wall
+**Title:** Graffiti on the Wall
 
-Artist: Florian Olivo
+**Artist:** Florian Olivo
 
-URL: https://unsplash.com/photos/E15sFNfajSI
+**URL:** https://unsplash.com/photos/E15sFNfajSI
 
-Title: Thriller!
+**Title:** Thriller!
 
-Artist: Edilson Borges
+**Artist:** Edilson Borges
 
-URL: https://unsplash.com/photos/GSrgTVqS0dk
+**URL:** https://unsplash.com/photos/GSrgTVqS0dk
 
-Title: Cloudy Sky During the Daytime
+**Title:** Cloudy Sky During the Daytime
 
-Artist: Sam Schooler
+**Artist:** Sam Schooler
 
-URL: https://unsplash.com/photos/E9aetBe2w40
+**URL:** https://unsplash.com/photos/E9aetBe2w40
 
-Title: House on the Field Under a Sky of Stars
+**Title:** House on the Field Under a Sky of Stars
 
-Artist: Thomas Shellberg 
+**Artist:** Thomas Shellberg 
 
-URL: https://unsplash.com/photos/_FjegPI89aU
+**URL:** https://unsplash.com/photos/_FjegPI89aU
 
 ### Third Party CSS and Javascript
 
-Mobile Navigation Bar
+**Mobile Navigation Bar**
 
 https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
-Bootstrap Front-end framework
+**Bootstrap Front-end framework**
 
 https://getbootstrap.com
 
@@ -80,7 +80,7 @@ https://getbootstrap.com
 
 A copy of the Australian Privacy Principles may be obtained from the website of The Office of the Australian Information Commissioner at www.aoic.gov.au
 
-## What is Personal Information, and do we collect it?
+### What is Personal Information, and do we collect it?
 
 Personal information is information or an opinion that identifies an individual. Examples of Personal Information we collect include names, addresses, email addresses, phone and facsimile numbers.
 
