@@ -79,7 +79,8 @@ https://getbootstrap.com
 ## Privacy Policy
 
 A copy of the Australian Privacy Principles may be obtained from the website of The Office of the Australian Information Commissioner at www.aoic.gov.au
-What is Personal Information, and do we collect it?
+
+## What is Personal Information, and do we collect it?
 
 Personal information is information or an opinion that identifies an individual. Examples of Personal Information we collect include names, addresses, email addresses, phone and facsimile numbers.
 
@@ -90,6 +91,7 @@ JS Adventure does not save any personal information.
 Sensitive information is defined in the Privacy Act to include information or opinion about an individual's racial or ethnic origin, political opinions, membership of a political association, religious or philosophical beliefs, membership of a trade union or other professional body, criminal record or health information.
 
 The default version of JS Adventure does not record any sensitive information. Information relating to player name, location, time and weather is only used when JS Adventure runs. If the browser is closed at any point, this information is cleared.
-Third Parties and Policy Updates
+
+### Third Parties and Policy Updates
 
 If you are playing a fork of JS Adventure, the authors of the forked must update this policy to reflect any change made and comply with the Australian Privacy Act.
