@@ -15,19 +15,19 @@ Title: Where is the love sung by The Black Eye Peas recreated in a tunnel underp
 
 Artist: Emily Morter
 
-URL: unsplash.com/photos/8xAA0f9yQnE
+URL: https://unsplash.com/photos/8xAA0f9yQnE
 
 Title: Be free and buy a vw bus!
 
 Artist: Kevin Schmid
 
-URL: unsplash.com/photos/Mta8r0bxhboE
+URL: https://unsplash.com/photos/Mta8r0bxhboE
 
 Title: Sea of Clouds
 
 Artist: Łukasz Łada
 
-URL: unsplash.com/photos/LtWFFVi1RXQ
+URL: https://unsplash.com/photos/LtWFFVi1RXQ
 
 Title: Grayscale Photo of a Wooden House
 
@@ -39,41 +39,41 @@ Title: Yellow and Green Led Light
 
 Artist: Cottonbro
 
-URL: www.pexels.com/photo/yellow-and-green-led-light-4835419
+URL: https://www.pexels.com/photo/yellow-and-green-led-light-4835419
 
 Title: Graffiti on the Wall
 
 Artist: Florian Olivo
 
-URL: unsplash.com/photos/E15sFNfajSI
+URL: https://unsplash.com/photos/E15sFNfajSI
 
 Title: Thriller!
 
 Artist: Edilson Borges
 
-URL: unsplash.com/photos/GSrgTVqS0dk
+URL: https://unsplash.com/photos/GSrgTVqS0dk
 
 Title: Cloudy Sky During the Daytime
 
 Artist: Sam Schooler
 
-URL: unsplash.com/photos/E9aetBe2w40
+URL: https://unsplash.com/photos/E9aetBe2w40
 
 Title: House on the Field Under a Sky of Stars
 
 Artist: Thomas Shellberg 
 
-URL: unsplash.com/photos/_FjegPI89aU
+URL: https://unsplash.com/photos/_FjegPI89aU
 
 Third Party CSS and Javascript
 
 Mobile Navigation Bar
 
-www.w3schools.com/howto/howto_js_mobile_navbar.asp
+https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 
 Bootstrap Front-end framework
 
-getbootstrap.com
+https://getbootstrap.com
 
 Privacy Policy
 
