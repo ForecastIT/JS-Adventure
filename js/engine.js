@@ -69,16 +69,26 @@ function showError(error) {
 }
 getLocation();
 
-//Outputs the Player Name from the BOM local storage.
+//Gets the players name from the input field when the enter key is pressed.
 input.onkeydown = function (event) {
   if (event.key == "Enter" || event.keyCode == 13) {
-    localStorage.setItem('playersname', input.value);
-    player = (localStorage.getItem('playersname'));
-    input.parentNode.removeChild(input)
-    scenario = setScenarioText()
-    advanceTo(scenario.two)
+    //Checks to see of the input field is null.
+    if(input.value  === "" || null ) {
+      //Adds the message "I need to know your name first!" to the html id text
+      document.getElementById("text").innerHTML = "I need to know your name first!"; //Adds the 
+      //Resets the input to any empty value redy for the playsers name
+      input.value ="";
+    } else {
+      //Outputs the Player Name from the BOM local storage.
+      localStorage.setItem('playersname', input.value);
+      player = (localStorage.getItem('playersname'));
+      input.parentNode.removeChild(input)
+      scenario = setScenarioText()
+      advanceTo(scenario.two)
+    return
+    }  
   }
-};
+}
 
 //Runs the in game clock based on the current system time eg. hh:mm:ss AM/PM
 function showTime() {
@@ -143,17 +153,17 @@ function setScenarioText() {
     },
     three: {
       image: "https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      text: "You look out the door of the campervan and the weather is " + gameweather + ". Next, you look at your watch and the time is " + v12HourClock + ". " + "What do you want to do?",
+      text: "You look out the door of the campervan, and the weather is " + gameweather + ". Next, you look at your watch, and the time is " + v12HourClock + ". " + "What do you want to do?",
       buttons: [["Stay in the campervan", "advanceTo(scenario.four)"], ["Go Outside", "advanceTo(scenario.five)"]]
     },
     four: {
       image: "https://images.unsplash.com/photo-1419833173245-f59e1b93f9ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      text: "You stay in the campervan. You wake up the next morning to a sunny day and continue on with your holiday. The End.",
+      text: "You stay in the campervan. You wake up the next morning to a sunny day and continue your holiday. The End.",
       buttons: [["Choose a different path?", "advanceTo(scenario.two)"]]
     },
     five: {
       image: "https://1.bp.blogspot.com/-83pWE4JxQxM/ViiOd_7nGTI/AAAAAAAADUg/yCJ8iAB-gMY/s1600/postapoc5.jpg",
-      text: "A wild gang of rabid dogs chace you away from the campervan. Against your better judgement you enter a creepy house for saftey.",
+      text: "A wild gang of rabid dogs chase you away from the campervan. Against your better judgement, you enter a creepy house for safety.",
       buttons: [["continue", "advanceTo(scenario.eight)"]]
     },
     six: {
@@ -168,27 +178,27 @@ function setScenarioText() {
     },
     eight: {
       image: "https://images.unsplash.com/photo-1616555670626-09496d2eed9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      text: "The door of the creepy house is boared up but, one of its windows is missing. What will you do?",
+      text: "The door of the creepy house is boarded up, but one of its windows is missing. What will you do?",
       buttons: [["Go in through the window", "advanceTo(scenario.nine)"], ["Try and return to the campercan", "advanceTo(scenario.six)"]]
     },
     nine: {
       image: "https://images.unsplash.com/photo-1542642859-c1403926a91e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-      text: "Inside the house there are two paths to follow. Which one will you take?",
+      text: "Inside the house, there are two paths to follow. Which one will you take?",
       buttons: [["Go to the back door", "advanceTo(scenario.twelve)"], ["Go up stairs", "advanceTo(scenario.ten)"]]
     },
     ten: {
       image: "https://images.unsplash.com/photo-1563905463861-7d77975b3a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      text: "Up stairs you see a shadowed figure at the end of the hall. What do you do?",
+      text: "Upstairs, you see a shadowed figure at the end of the hall. What do you do?",
       buttons: [["Go towards the figure.", "advanceTo(scenario.eleven)"], ["Go back the way you came.", "advanceTo(scenario.nine)"]]
     },
     eleven: {
       image: "https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      text: "Well " + player + ", that wasn't very smart. In the words of Ron Perlman from the game Fallout 'Boy, your stupid, and dead.'",
+      text: "Well, " + player + " wasn't very smart. So, in the words of Ron Perlman from the game Fallout 'Boy, you're stupid and dead.'",
       buttons: [["Choose a different path?", "advanceTo(scenario.two)"]]
     },
     twelve: {
       image: "https://images.unsplash.com/photo-1440549770084-4b381ce9d988?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      text: "You step out of the house and the dogs have stopped following you. What do you want to do?",
+      text: "You step out of the house, and the dogs have stopped following you. What do you want to do?",
       buttons: [["Try and go back to the campervan.", "advanceTo(scenario.seven)"], ["Go back in to the house", "advanceTo(scenario.nine)"]]
     },
   })
