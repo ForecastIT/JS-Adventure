@@ -11,6 +11,15 @@ var input = document.getElementById('input');
 //this is the variable for the name of the character
 var player;
 
+//Varible for Random Weather States
+var randomweatherstates
+
+//Holds a Random Varible
+var random
+
+//Varible for the random weather state
+var randomweather;
+
 //Holds the local weather condition.
 var setweather;
 
@@ -33,32 +42,91 @@ function getLocation() {
   }
 }
 
-//Placesses the Coordinates in the Open Weather Maps API and retrieves the players local weather in JSON format and then fillers it down to the current conditions and saves it to local storage before sending it to a varible.
+//Set the weather value for the game.
 async function showPosition(position) {
-  const res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=' + position.coords.latitude + '&lon=' + position.coords.longitude + '&appid=' + appid + '')
-  const data = await res.json()
 
-  //Saves the weather data to local storage.
-  localStorage.setItem('weatherdata', data.weather[0].main);
-  setweather = (localStorage.getItem('weatherdata'));
-  console.log(res);
-  console.log(setweather);
+  //If the OpenWeather API Key is not set a random weather condition will be set.
+  if (appid === "" || null ) {
+    randomweatherstates = ["Clouds","Rain","Clear","Snow","Extreme","Okay"];
+    random = Math.floor((Math.random() * randomweatherstates.length));
+    //randomweather = randomweatherstates[random];
+    //Saves the weather data to local storage.
+    localStorage.setItem('weatherdata', randomweatherstates[random]);
+    randomweather = (localStorage.getItem('weatherdata'));
 
-//The if statement takes the data in setweather and matches to an alternative word. The alternative word is added to the varible gameweather. Add gameweather to a senario text string to display the current weather. 
-  if (setweather = "Clouds") {
-        gameweather = "cloudy"
-     } else if (setweather = "Sun") {
+    //This if statement takes the data in randomweather and matches it to an alternative word. The alternative word is added to the variable gameweather, adding randomweather to a scenario text string to display the weather.
+    if (randomweather == "Clouds")
+      {
+      gameweather = "cloudy"
+      }
+      else if (randomweather == "Sun")
+      {
         gameweather = "sunny"
-     } else if (setweather = "Rain") {
-        gameweather = "raining"}
-       else if (setweather = "Clear"){
+      }
+      else if (randomweather == "Rain")
+      {
+        gameweather = "raining"
+      }
+      else if (randomweather == "Clear")
+      {
         gameweather = "clear"
-     } else if (setweather = "Snow") {
-        gameweather = "snowing"
-     } else if (setweather = "extreme") {
+      }
+      else if (randomweather == "Snow")
+      {
+        gameweather = "snowy"
+      }
+      else if (randomweather == "Extreme")
+      {
         gameweather = "extremly dangerous"
-     } else (gameweather = "okay");
-   console.log(gameweather);
+      }
+      else if (randomweather == "Okay")
+      {
+        gameweather = "okay"
+      }
+      console.log(randomweather);
+      console.log(gameweather);
+
+  //Placesses the Coordinates in the Open Weather Maps API and retrieves the players local weather in JSON format and then fillers it down to the current conditions and saves it to local storage before sending it to a varible.
+  } else {
+    const res = await fetch('https://api.openweathermap.org/data/2.5/weather?lat=' + position.coords.latitude + '&lon=' + position.coords.longitude + '&appid=' + appid + '')
+    const data = await res.json()
+
+    //Saves the weather data to local storage.
+    localStorage.setItem('weatherdata', data.weather[0].main);
+    setweather = (localStorage.getItem('weatherdata'));
+    console.log(res);
+    console.log(setweather);
+
+    //This if statement takes the data in setweather and matches it to an alternative word. The alternative word is added to the variable gameweather, adding gameweather to a scenario text string to display the current weather.
+    if (setweather == "Clouds")
+      {
+      gameweather = "cloudy"
+      }
+      else if (setweather == "Sun")
+      {
+        gameweather = "sunny"
+      }
+      else if (setweather == "Rain")
+      {
+        gameweather = "raining"
+      }
+      else if (setweather == "Clear")
+      {
+        gameweather = "clear"
+      }
+      else if (setweather == "Snow")
+      {
+        gameweather = "snowy"
+      }
+      else if (setweather == "Extreme")
+      {
+        gameweather == "extremly dangerous"
+      }
+      else (gameweather = "okay");
+
+      console.log(setweather);
+      console.log(gameweather);
+ }
 }
 
 //Displays an error if geolocation is off or blocked in the browser.
