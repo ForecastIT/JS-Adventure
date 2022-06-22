@@ -2,7 +2,7 @@
 
 JS Adventure is a short browser-based adventure game written in Javascript that tracks the player's local time and weather and includes them in the story.
 
-**Please Note:** You will need an API key from OpenWeather, https://openweathermap.org/api, for JS Adventure to work correctly.
+**Please Note:** You will need an API key from OpenWeather, https://openweathermap.org/api, if you want to use the players' local weather conditions. If you leave the API blank, a random weather condition will be assigned instead.
 
 ## Author
 
